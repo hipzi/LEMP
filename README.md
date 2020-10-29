@@ -151,7 +151,6 @@ keterangan :
 
 - <p><code>listen</code> : Mendefinisikan port apa yang akan digunakan oleh Nginx. Dalam hal ini, ia akan menggunakan port 80 (HTTP)</p> 
 - <p><code>root</code> : Tempat di mana file dokumen situs web disimpan</p> 
-- <p><code>root</code> : Tempat di mana file dokumen situs web disimpan</p> 
 - <p><code>server_name</code> : Mendefinisikan server mana yang harus digunakan. Arahkan petunjuk ini ke nama domain server atau alamat IP Publik</p> 
 
 <p>Setelah menambahkan file konfigurasi, simpan dan tutup file. Aktifkan blok server baru dengan membuat tautan simbolis dari file konfigurasi blok server baru dalam <code>/etc/nginx/sites-available/file-konfigurasi</code> ke <code>/etc/nginx/sites-enabled/</code>:</p>
@@ -173,8 +172,6 @@ keterangan :
 <p>Kemudian <i>reload</i> Nginx untuk membuat perubahan yang diperlukan:</p>
 
     sudo service nginx reload
-
-<p>Kemudian <i>reload</i> Nginx untuk membuat perubahan yang diperlukan:</p>
 
 ![Web](img/web.png)
 
